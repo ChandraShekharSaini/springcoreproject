@@ -9,8 +9,8 @@ public class Main {
     public static void main(String[] args) {
 
         ApplicationContext context = new AnnotationConfigApplicationContext("com.springcore.annotation.bean");
-        Employe employe = context.getBean("employe", Employe.class);
+        Employe employe = context.getBean("logic", Employe.class);
 
-          employe.display();
+        employe.display();
     }
 }

@@ -1,9 +1,11 @@
 package com.springcore.annotation.bean;
 
 import lombok.extern.log4j.Log4j2;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Controller;
+import org.springframework.stereotype.Repository;
 
-@Component("employe")
+
+@Controller("logic")
 @Log4j2
 public class Employe {
 
@@ -11,8 +13,8 @@ public class Employe {
     private int age;
 
     public Employe() {
-        this.name = "Chandra878";
-        this.age = 9770;
+        this.name = "Rahul ji EarBuds";
+        this.age = 667;
     }
 
     public  void display() {

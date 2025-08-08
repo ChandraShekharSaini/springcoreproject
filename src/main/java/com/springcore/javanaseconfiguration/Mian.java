@@ -13,6 +13,7 @@ public class Mian {
         ApplicationContext context = new AnnotationConfigApplicationContext("com.springcore.javanaseconfiguration");
         Date currentDate = context.getBean("getCurrentDate", Date.class);
 
+         log.info("I am Good");
         log.info("Current---- Date:", currentDate);
     }
 }
