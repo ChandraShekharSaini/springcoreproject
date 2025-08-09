@@ -1,11 +1,11 @@
-package com.springcore.annotation.bean;
+package com.springcore.annotation.bean.Controller;
 
 import lombok.extern.log4j.Log4j2;
-import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
+
+import org.springframework.stereotype.Controller;
 
 
-@Service("logic")
+@Controller("logic")
 @Log4j2
 public class Employe {
 
